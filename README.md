@@ -1,2 +1,2 @@
 # CustomMetrics_Keras
-A python module that contains metric function for binary and multi-class classification models. 
+A python module that contains metric function for binary and multi-class classification models, it enables the determination of recall, precsion, specificity, F1 score, flase_positive_rate and false_negative_rate for a binary classifier during the training. For multi-class classification, it computes the macro and micro precision, recall and F1 scores. It is important to notice that the functions operate in a batch-wise manner.
